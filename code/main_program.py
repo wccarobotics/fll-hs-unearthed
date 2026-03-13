@@ -1,10 +1,15 @@
 import menu
 
-import program1, program2
+import  hs67, Goingtoothersideandcomleatemissions,mission1,minecart
 
 programs = {
-    0: program1.Run,
-    1: program2.Run,
+
+    
+    0: hs67.Run,
+    1: Goingtoothersideandcomleatemissions.Run,
+    2: mission1.Run,
+    3: minecart.Run,
 }
+
 
 menu.menu(programs)
