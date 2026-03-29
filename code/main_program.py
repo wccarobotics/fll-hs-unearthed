@@ -1,14 +1,18 @@
 import menu
 
-import  hs67, Goingtoothersideandcomleatemissions,mission1,minecart
+import  hs67, Hshittingthethingbehindrocks, Goingtoothersideandcomleatemissions,mission1,minecart, puttingthingsinthemiddle, mission12boat, redpieceonmission2
 
 programs = {
 
     
     0: hs67.Run,
-    1: Goingtoothersideandcomleatemissions.Run,
-    2: mission1.Run,
-    3: minecart.Run,
+    1: Hshittingthethingbehindrocks.Run,
+    2: Goingtoothersideandcomleatemissions.Run,
+    3: mission1.Run,
+    4: minecart.Run,
+    5: puttingthingsinthemiddle.Run,
+    6: mission12boat.Run,
+    7: redpieceonmission2.Run
 }
 
 
