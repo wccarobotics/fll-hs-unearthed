@@ -1,4 +1,4 @@
-import menu
+from marcus.menu import menu
 
 import  hs67, Hshittingthethingbehindrocks, Goingtoothersideandcomleatemissions,mission1,minecart, puttingthingsinthemiddle, mission12boat, redpieceonmission2, hsredpieceandpushmap
 
@@ -15,4 +15,6 @@ programs = {
 }
 
 
-menu.menu(programs)
+menu(programs)
+
+print("done")
