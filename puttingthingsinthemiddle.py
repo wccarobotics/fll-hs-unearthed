@@ -8,7 +8,5 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     
     drive_base.use_gyro(True)
     drive_base.settings(straight_speed=900)
-    drive_base.straight(250, then=Stop.COAST)
-    drive_base.turn(48)
-    drive_base.straight(250)
-    drive_base.straight(-500)
+    drive_base.straight(425)
+    drive_base.straight(-425, then=Stop.COAST)

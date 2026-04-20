@@ -15,4 +15,5 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     drive_base.straight(150)
     drive_base.straight(-120)
     drive_base.turn(35)
+    drive_base.settings(straight_speed=450)
     drive_base.straight(-700, then=Stop.NONE)
