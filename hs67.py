@@ -34,7 +34,7 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     drive_base.turn(-90)
     # Doing mission 10
     drive_base.settings(straight_speed=150)
-    drive_base.straight(-155)
+    drive_base.straight(-160)
     drive_base.turn(-48)
     drive_base.settings(straight_speed=700)
     drive_base.straight(340)
@@ -42,14 +42,10 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     drive_base.turn(-22.5, then=Stop.NONE)
     drive_base.settings(straight_speed=900)
     drive_base.straight(350)
-    right_attachment.run_angle(500, 190)
-    drive_base.turn(-18)
-    drive_base.straight(300, then=Stop.COAST)
-    drive_base.straight(-300)
-    drive_base.turn(78)
+    drive_base.turn(50)
     drive_base.settings(straight_speed=900)
-    drive_base.straight(650)
-    drive_base.settings(straight_speed=200)
+    drive_base.straight(600)
+
 
 
 
