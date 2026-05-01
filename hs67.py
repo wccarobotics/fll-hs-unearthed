@@ -16,7 +16,7 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     # Doing mission 6
     drive_base.settings(straight_speed=900)
     drive_base.straight(550)
-    right_attachment.run_angle(500, -190)
+    right_attachment.run_angle(500, -190, wait=False)
     drive_base.straight(190)
     # Doing Mission 5.
     drive_base.turn(-45)
