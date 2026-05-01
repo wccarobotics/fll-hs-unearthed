@@ -10,14 +10,15 @@ def Run(drive_base: DriveBase, left_attachment: Motor, right_attachment: Motor, 
     # The main program starts here.
     drive_base.use_gyro(True)
     drive_base.settings(straight_speed=900)
-    drive_base.straight(250, then=Stop.COAST)
+    drive_base.straight(241, then=Stop.COAST)
     drive_base.turn(55)
     drive_base.straight(139)
     drive_base.turn(-45)
     drive_base.straight(145)
-    drive_base.turn(8)
+    drive_base.turn(7)
     drive_base.straight(50)
-    drive_base.turn(-40)
+    drive_base.turn(-41)
     drive_base.turn(15)
-    drive_base.straight(1150)
+    drive_base.straight(1250)
+
 
